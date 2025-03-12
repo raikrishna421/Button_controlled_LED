@@ -11,8 +11,8 @@ int button=digitalRead(7);
 Serial.println(button);
 if(button==HIGH)
 {
-  digitalWrite(8,HIGH);
-  
+  digitalWrite(8,HIGH);//LED
+      
 }
 else{
   digitalWrite(8,LOW);
